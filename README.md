@@ -4,7 +4,7 @@ This project is a clojure web server that demonstrate basic authentication and R
 
 ## Author
 
-* **Yann Mulonda** 
+* **[Yann Mulonda](https://github.com/YannMjl)** 
 
 ## License
 
