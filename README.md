@@ -1,14 +1,10 @@
 # restful
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-...
+This project is a clojure web server that demonstrate basic authentication and REST APIs.
 
 ## Author
 
-* **Yann Mulonda** 
+* **[Yann Mulonda](https://github.com/YannMjl)** 
 
 ## License
 
