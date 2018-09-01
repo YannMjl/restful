@@ -44,8 +44,9 @@
    :body (str request)})
 
 (defroutes app-routes
-           (GET "/" [] (apply str "<h2>Hello, World!</h2>"))
            ;(GET "/info" [] {the-user :basic-authentication } {:status 200 :header {} :body (str "Your email is " (:email the-user) " your password is " (:password the-user))})
+          
+           (GET "/" [] (apply str "<h2>Hello, World!</h2>"))
            (GET "/count-up/:to" [to] (str-to (Integer. to)))
            (GET "/count-down/:from" [from] (str-from (Integer. from)))
            (route/not-found "<h1>Page not found or does not exit</h1>")
