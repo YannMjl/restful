@@ -30,7 +30,6 @@
 (defn str-from [number]
   (apply str (interpose ", " (reverse (range 1 (inc number)))))
   )
-
 ;----------------------------------------------------------------------------------------------------------------------*
 (defn unauthorized-handler [req msg]
   {:status 401
@@ -53,7 +52,7 @@
            )
 
 ;----------------------------------------------------------------------------------------------------------------------*
-;                                                                                        *
+;                                                                                                                      *
 ;----------------------------------------------------------------------------------------------------------------------*
 ; Behold, our middleware! Note that it's common to prefix our middleware name
 ; with "wrap-", since it surrounds any routes an other middleware "inside"
@@ -62,7 +61,6 @@
     (println req)       ; perform logging
     (handler req))      ; pass the request through to the inner handler
   )
-
 
 (defn authenticated? [username password]
   (and (= username "admin")
