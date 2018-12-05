@@ -22,7 +22,6 @@
   [x]
   (println x "Hello, World!"))
 
-
 (defn str-to [number]
   (apply str (interpose ", " (range 1 (inc number))))
   )
@@ -31,6 +30,7 @@
   (apply str (interpose ", " (reverse (range 1 (inc number)))))
   )
 ;----------------------------------------------------------------------------------------------------------------------*
+
 (defn unauthorized-handler [req msg]
   {:status 401
    :body {:status :error
