@@ -1,6 +1,6 @@
 # restful
 
-This project is a clojure web server that demonstrate basic authentication, REST APIs, and Docker file for deployment.
+A clojure web server that demonstrate basic authentication, REST APIs, and use Docker file for deployment.
 
 ## Author
 
